@@ -1,0 +1,25 @@
+{
+  "name": "kharcha-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.2",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.5.15",
+    "prettier": "^3.9.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.0.0"
+  }
+}
