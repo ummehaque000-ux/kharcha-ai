@@ -15,7 +15,7 @@ export default function App() {
 
   const loadExpenses = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/expenses");
+      const response = await fetch("https://kharcha-ai-1.onrender.com/api/expenses");
       const realData = await response.json();
 
       setExpenses(realData);
